@@ -1,0 +1,126 @@
+h1, h4{/*changing the font style of header1 and header4 to Roboto*/
+    font-family: 'Roboto', sans-serif;
+}
+p{/*changing the font style of paragraph to Roboto Condensed*/
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h2, h3{/*changing the font style of header2 and header4 to Pathway Extreme*/
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+.poster {/*adding copy of the poster as background image*/
+    background-image: url('../img/Jogi1.jpg');
+    background-repeat: no-repeat;/*this will not repeat the image*/
+    background-size: 50%;
+    background-position: top;/*fix the position at top*/
+}
+.poster > header> h1{/*Adjusting the header*/
+    height: 75%;
+    width: auto;
+    text-align: center;/*aligning text to center*/
+    color: #f4f4f4;/*changing the color of the text*/
+    font-size: 15px;/*changing the size of the font*/
+    margin-top:60px;
+    margin-bottom:0;
+    padding-bottom:0;
+    letter-spacing:3px;/*adding space between the letters*/
+}
+.poster> main> section:nth-child(1)>a {/*to remove any decoration from the text*/
+text-decoration: none;
+}
+
+.poster> main> section:nth-child(1)>a>p{/*adjusting the movie name*/
+    text-align: center;
+    color: crimson;
+    font-size: 110px;
+    letter-spacing:55px;
+    margin:0;
+    padding:0;
+}
+.poster> main> section:nth-child(2){/*adjusting the 2nd section to look similar t the original poster*/
+    display: flex;
+    position: absolute;
+    top: 180px;
+    left: 545px;
+    align-items: center;
+    margin:2px;
+    padding:0;
+}
+.poster>main>section:nth-child(2)>div>h3{
+    text-align:right;
+    padding:5px;
+    color: #f4f4f4;
+    font-size:8px;
+    letter-spacing:1px;
+}
+.poster>main>section:nth-child(2)>div+div>h2{
+    text-align: left;
+    color: #f4f4f4;
+    font-size:10px;
+    letter-spacing: 2px;
+}
+
+.poster>main>section:nth-child(3){/*adjusting the next section as well*/
+    display: flex;
+    position: absolute;
+    top: 193px;
+    left: 575px;
+    align-items: center;
+    margin:3px;
+    padding:0;
+}
+.poster>main>section:nth-child(3)>div>h3{
+    text-align: right;
+    padding: 5px;
+    color: #f4f4f4;
+    font-size:8px;
+    letter-spacing: 1px;
+}
+.poster>main>section:nth-child(3)>div+div>h2{
+    text-align:left;
+    color:#f4f4f4;
+    font-size:10px;
+    letter-spacing: 2px;
+}
+.poster>main>section:nth-child(4){/*adjusting the next section for polished look*/
+    display: flex;
+    position: absolute;
+    top: 208px;
+    left: 630px;
+    align-items: center;
+    margin:3px;
+    padding:0;
+}
+.poster>main>section:nth-child(4)>div>h3{
+    text-align: right;
+    padding:5px;
+    color: #f4f4f4;
+    font-size:8px;
+    letter-spacing: 1px;
+}
+.poster>main>section:nth-child(4)>div+div>h2{
+    text-align:left;
+    color:#f4f4f4;
+    font-size:10px;
+    letter-spacing: 2px;
+}
+.poster>footer>a{/*setting the footer*/
+    display:grid;
+    grid-template-columns: 50% 50%;
+    align-items:center;
+    margin:31%;
+    text-decoration: none;
+
+}
+.poster>footer>a>div>h4{
+    text-align:right;
+    font-size:25px;
+    color: crimson;
+
+}
+.poster>footer>a>div+div>h4{
+    text-align:left;
+    color:#f4f4f4;
+    font-size:25px;
+    padding:2px;
+}
